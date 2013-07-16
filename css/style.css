@@ -1,0 +1,9 @@
+.evernote_trigger {
+	float: left;
+	margin-right: 10px;
+}
+
+.evernote_collect {
+	background: url(img/evernote.png) 0 -1px no-repeat;
+	padding-left: 25px;
+}

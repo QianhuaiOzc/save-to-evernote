@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "oschina-news-to-evernote",
+	"description": "把oschina中的新闻或者是开源软件的推荐，以摘要的方式保存到Evernote的笔记中，以备以后查看",
+	"version": "1.0",
+
+	"permissions": [
+		"http://www.oschina.net/"
+	],
+	"content_scripts": [
+		{
+			"matches": ["http://www.oschina.net/*"],
+			"css": ["css/style.css"],
+			"js": ["js/jquery.js", "js/change.js"]
+		}
+	],
+	"browser_action": {
+
+	}
+}
